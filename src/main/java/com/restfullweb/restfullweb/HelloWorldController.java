@@ -32,7 +32,7 @@ public class HelloWorldController {
 
     @GetMapping(path = "/hello-world-bean/{pathVariable}")
     public HelloWorldBean helloWorldBean(@PathVariable String pathVariable) {
-        return new HelloWorldBean("Hello Worlds" + " " + pathVariable);
+        return new HelloWorldBean("Hello World" + " " + pathVariable);
     }
 
 
